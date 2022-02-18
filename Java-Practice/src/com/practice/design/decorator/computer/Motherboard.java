@@ -1,21 +1,21 @@
-package com.practice.dessign.decorator.computer;
+package com.practice.design.decorator.computer;
 
-public class RAMComponent extends ComputerComponent {
+public class Motherboard extends ComputerComponent{
 
 	Computer computer;
 	
-	public RAMComponent(Computer computer) {
+	public Motherboard(Computer computer) {
 		this.computer = computer;
 	}
 	
 	@Override
 	public double cost() {
-		return computer.cost() + 20;
+		return computer.cost() + 25;
 	}
-	
+
 	@Override
 	public String getDescription() {
-		return "Ram";
+		return "Motherboard";
 	}
 
 	@Override

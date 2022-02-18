@@ -1,7 +1,5 @@
-package com.practice.dessign.observer.pattern;
+package com.practice.design.observer.pattern;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Observable;
 
 public class WeatherData extends Observable {

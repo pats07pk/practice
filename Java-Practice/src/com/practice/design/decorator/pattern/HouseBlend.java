@@ -1,4 +1,4 @@
-package com.practice.dessign.decorator.pattern;
+package com.practice.design.decorator.pattern;
 
 public class HouseBlend extends Beverage {
 

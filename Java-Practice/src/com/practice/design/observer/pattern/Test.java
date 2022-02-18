@@ -1,4 +1,4 @@
-package com.practice.dessign.observer.pattern;
+package com.practice.design.observer.pattern;
 
 public class Test {
 

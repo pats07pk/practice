@@ -1,4 +1,4 @@
-package com.practice.dessign.decorator.computer;
+package com.practice.design.decorator.computer;
 
 public class Desktop extends Computer {
 
